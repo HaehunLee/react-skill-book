@@ -1,11 +1,14 @@
 import React from 'react';
-import './App.css';
+import MainContainer from './container/MainContainer';
+import Hello from './container/Lv1Component/Hello';
 
 function App() {
   return (
-    <div className="App">
-      react skill book OPEN
-    </div>
+    <>
+      <MainContainer />
+      <Hello/>
+      <Hello/>
+    </>
   );
 }
 
