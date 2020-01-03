@@ -3,7 +3,7 @@ import React from 'react';
 const index = () => {
     return (
         <div>
-           <h1>React.js Skill Book</h1>
+            <h2>Lv3. props</h2>
         </div>
     );
 };
