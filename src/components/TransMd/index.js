@@ -11,8 +11,7 @@ const index = (props) => {
     const { contents } = props;
     
     return (
-        <div style={{width: '800px', height : '600px', overflow:'scroll'}}>
-            <span>Code Box</span>
+        <div style={{width: 'auto', height : '600px', overflow:'scroll'}}>
             <ReactMarkdown
                 source={contents && contents}
                 skipHtml={false}

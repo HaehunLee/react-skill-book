@@ -1,26 +1,8 @@
 import React from 'react';
-import styled from 'styled-components';
 import Lv2JSX from './Lv2JSX';
-import TrnasMd from '../../components/TransMd';
+import TransMd from '../../components/TransMd';
+import { MainBox, ContentsBox, CodeBox, MdBox } from '../../components/styled';
 
-const MainBox = styled.div`
-    display : flex;
-    width : 100%;
-    border : 1px dashed red;
-    padding : 5px;
-    margin : 5px;
-    background : #EEEEEE;
-`
-
-const ContentsBox = styled.div`
-    width : 50%;
-    padding : 10px;
-`
-
-const CodeBox = styled.div`
-    width : 50%;
-    padding : 10px;
-`
 
 const contents = `
 \`\`\`javascript
@@ -53,6 +35,9 @@ const Lv2JSX = () => {
 export default Lv2JSX;
 \`\`\`
 
+`
+
+const markdown = `
 
 # JSX
 
@@ -118,7 +103,8 @@ const index = () => {
     return (
         <MainBox>
             <ContentsBox><span>Contents</span><Lv2JSX /></ContentsBox>
-            <CodeBox><TrnasMd contents={contents} /></CodeBox>
+            <CodeBox><span>Code</span><TransMd contents={contents} /></CodeBox>
+            <MdBox><span>MarkDown</span><TransMd contents={markdown}/></MdBox>
         </MainBox>
     );
 }
