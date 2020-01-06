@@ -3,10 +3,6 @@ import { InlineCodeBlock, CodeBlock, TableCellBlock, BlockQuoteBlock } from './R
 
 const ReactMarkdown = require('react-markdown');
 
-// const CodeBoxHeader = styled.span`
-
-// `
-
 const index = (props) => {
     const { contents } = props;
     

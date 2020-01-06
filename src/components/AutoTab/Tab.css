@@ -1,0 +1,85 @@
+.react-tabs__tab-list {
+    border-bottom : none !important;
+    margin : 0 0 5px !important;
+    font-size: 18px;
+    color: #999999;
+}
+.react-tabs__tab-list .react-tabs__tab {
+    margin-left: 20px;
+}
+.react-tabs__tab {
+    display: inline-block;
+    border: 1px solid transparent !important;
+    border-bottom : none;
+    bottom: -3px !important;
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 0 0 10px 0 !important;
+}
+
+.react-tabs__tab--selected {
+    border-bottom : 2px solid #ef515b !important;
+    background-color: transparent !important;
+    color: #ef515b !important;
+}
+
+
+@media (min-width: 319px) and (max-width: 1300px) {
+    .H1-tncdg6-0{display: none;}
+    .wrap_cont{
+        padding: 0 !important;
+    }
+    .react-tabs__tab-list {
+        display: flex;
+        background: #f9f9f9;
+        height: 50px;
+        line-height: 30px;
+    }
+    .react-tabs__tab {
+        width: 100%;
+        line-height: 50px;
+    }
+    .react-tabs__tab-panel--selected {
+        padding: 0 !important;
+    }
+    .react-tabs__tab-list .react-tabs__tab:first-child {
+        margin-left: 0px;
+    }
+    .react-tabs__tab-list .react-tabs__tab:nth-child(2) {
+        margin-left: 0px;
+    }
+    .react-tabs__tab-list .react-tabs__tab:last-child {
+        margin-left: 0px;
+    }    
+}
+
+
+
+
+@media (min-width: 319px) and (max-width: 1300px) {
+    .H1-tncdg6-0{display: none;}
+    .wrap_cont{
+        padding: 0 !important;
+    }
+    .modal-content .react-tabs__tab-list {
+        display: flex;
+        background: #f9f9f9;
+        height: 50px;
+        line-height: 30px;
+    }
+    .modal-content .react-tabs__tab {
+        width: 100%;
+        line-height: 50px;
+    }
+    .modal-content .react-tabs__tab-list .react-tabs__tab:first-child {
+        margin-left: 0px;
+    }
+    .modal-content .react-tabs__tab-list .react-tabs__tab:nth-child(2) {
+        margin-left: 0px;
+    }
+    .modal-content .react-tabs__tab-list .react-tabs__tab:last-child {
+        margin-left: 0px;
+    }    
+}

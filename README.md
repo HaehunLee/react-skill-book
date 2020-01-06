@@ -13,13 +13,24 @@ react-syntax-highligher
 styled-components
 mobx
 mobx-react
+react-tabs
 ...
 ```
 
 ## Custom Component
 ```
 TransMd : markdown을 react코드에서 사용할 수 있게 해줌. ( JSX 하이라이팅 포함 )
+AutoTab : 페이지들을 Tab에 주입하여 탭단으로 볼 수 있게 해줌.
 ```
+
+
+
+
+
+
+
+
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
