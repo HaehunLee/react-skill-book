@@ -1,13 +1,16 @@
 import React from 'react';
 import MainContainer from './container/MainContainer';
-import Hello from './container/Lv1Component/Hello';
+import Lv1Component  from './container/Lv1Component';
+import Lv2JSX  from './container/Lv2JSX';
+import Lv3props  from './container/Lv3props';
 
 function App() {
   return (
     <>
       <MainContainer />
-      <Hello/>
-      <Hello/>
+      <Lv1Component/>
+      <Lv2JSX />
+      <Lv3props />
     </>
   );
 }
