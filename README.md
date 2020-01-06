@@ -4,12 +4,15 @@
 - Lv1. React ( 2019.01.02 ~ 수정 )
 - LV2. JSX ( 2019.01.03 ~ )
 - Lv3. Component ( 2019.01.06 준비 )
+- MobX ( 2019.01.07 study )
 
 ## * Library ( Installed )
 ```
 react-markdown
 react-syntax-highligher
 styled-components
+mobx
+mobx-react
 ...
 ```
 
