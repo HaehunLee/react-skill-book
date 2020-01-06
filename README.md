@@ -3,6 +3,7 @@
 ## * Contents
 - Lv1. React ( 2019.01.02 ~ 수정 )
 - LV2. JSX ( 2019.01.03 ~ )
+- Lv3. Component ( 2019.01.06 준비 )
 
 ## * Library ( Installed )
 ```
@@ -10,6 +11,11 @@ react-markdown
 react-syntax-highligher
 styled-components
 ...
+```
+
+## Custom Component
+```
+TransMd : markdown을 react코드에서 사용할 수 있게 해줌. ( JSX 하이라이팅 포함 )
 ```
 ---
 
