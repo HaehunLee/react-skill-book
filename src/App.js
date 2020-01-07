@@ -5,6 +5,7 @@ import Lv2JSX  from './container/Lv2JSX';
 import Lv3Component  from './container/Lv3Component';
 import MobX  from './container/MobX';
 import Lv4LifeCycle  from './container/Lv4LifeCycle';
+import MaterialUi from './container/MaterialUi';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Lv3Component />
       <MobX />
       <Lv4LifeCycle />
+      <MaterialUi />
     </>
   );
 }
