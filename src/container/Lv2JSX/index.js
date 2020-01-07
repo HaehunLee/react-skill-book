@@ -8,7 +8,7 @@ import AutoTab from '../../components/AutoTab/AutoTab';
 const index = () => {
     return (
         <MainBox>
-            <ContentsBox><span>Contents</span><Lv2JSX /></ContentsBox>
+            <ContentsBox><Lv2JSX /></ContentsBox>
             <CodeBox>
                 <AutoTab
                     menu={['Lv2JSX.js','Hello.js']}
@@ -18,7 +18,7 @@ const index = () => {
                     ]}
                 />
             </CodeBox>
-            <MdBox><span>MarkDown</span><TransMd contents={markdown}/></MdBox>
+            <MdBox><TransMd contents={markdown}/></MdBox>
         </MainBox>
     );
 }

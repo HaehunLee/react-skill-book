@@ -1,11 +1,10 @@
 import React from 'react';
 import TransMd from '../../components/TransMd';
-import { MainBox, ContentsBox, CodeBox } from '../../components/styled';
+import { MainBox, ContentsBox, CodeBox, MdBox } from '../../components/styled';
 
 const contents = `
 
-
-
+*준비중...*
 `;
 
 const index = () => {
@@ -20,8 +19,9 @@ const index = () => {
 
             </ContentsBox>
             <CodeBox><TransMd contents={contents}/></CodeBox>
+            <MdBox><TransMd contents={contents}/></MdBox>
         </MainBox>
     );
 };
 
-export default index;   
+export default index;

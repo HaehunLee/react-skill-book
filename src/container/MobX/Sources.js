@@ -73,6 +73,7 @@ export default class CounterStore {
 const markdown = `
 
 # MobX
+- 상태 관리 라이브러리.
 
 ## mobx-react
 
