@@ -2,6 +2,7 @@
   "name": "react-skill-book",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://haehunlee.github.io/react-skill-book/",
   "dependencies": {
     "@babel/core": "7.7.4",
     "@material-ui/core": "^4.8.3",
@@ -72,8 +73,10 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -158,9 +161,5 @@
         }
       ]
     ]
-  },
-  "homepage": "https://haehunlee.github.io/react-skill-book/",
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
   }
 }
