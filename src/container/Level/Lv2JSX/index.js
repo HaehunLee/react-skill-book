@@ -1,9 +1,9 @@
 import React from 'react';
 import Lv2JSX from './Lv2JSX';
-import TransMd from '../../components/TransMd';
-import { MainBox, ContentsBox, CodeBox, MdBox } from '../../components/styled';
+import TransMd from '../../../components/TransMd';
+import { MainBox, ContentsBox, CodeBox, MdBox } from '../../../components/styled';
 import { Lv2JSXJS, HelloJS, markdown} from './Sources';
-import AutoTab from '../../components/AutoTab/AutoTab';
+import AutoTab from '../../../components/AutoTab/AutoTab';
 
 const index = () => {
     return (

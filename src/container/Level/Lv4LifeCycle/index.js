@@ -1,8 +1,8 @@
 import React from 'react';
-import { MainBox, ContentsBox, CodeBox, MdBox } from '../../components/styled';
-import TransMd from '../../components/TransMd';
+import { MainBox, ContentsBox, CodeBox, MdBox } from '../../../components/styled';
+import TransMd from '../../../components/TransMd';
 import { markdown, LifeCycleJS, LifeCycleSampleJS, ErrorBoundaryJS } from './Sources';
-import AutoTab from '../../components/AutoTab/AutoTab';
+import AutoTab from '../../../components/AutoTab/AutoTab';
 import Lv4LifeCycle from './Lv4LifeCycle';
 
 const index = () => {

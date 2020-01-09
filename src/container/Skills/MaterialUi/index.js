@@ -1,8 +1,8 @@
 import React from 'react';
-import { MainBox, ContentsBox, CodeBox, MdBox } from '../../components/styled';
-import TransMd from '../../components/TransMd';
+import { MainBox, ContentsBox, CodeBox, MdBox } from '../../../components/styled';
+import TransMd from '../../../components/TransMd';
 import { MaterialUiJS, MaterialButtonJS, MaterialTableJS, markdown } from './Sources';
-import AutoTab from '../../components/AutoTab/AutoTab';
+import AutoTab from '../../../components/AutoTab/AutoTab';
 import MaterialUi from './MaterialUi';
 
 const index = () => {
