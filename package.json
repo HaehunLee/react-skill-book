@@ -76,6 +76,7 @@
     "deploy": "npm run build&&gh-pages -d build"
   },
   "devDependencies": {
+    "babel-plugin-module-resolver": "^4.0.0",
     "gh-pages": "^2.2.0"
   },
   "eslintConfig": {
@@ -159,7 +160,14 @@
         {
           "loose": true
         }
-      ]
+      ],
+      ["module-resolver", {
+        "root": ["./src"],
+        "alias": {
+          "test": "./test",
+          "underscore": "lodash"
+        }
+      }]
     ]
   }
 }

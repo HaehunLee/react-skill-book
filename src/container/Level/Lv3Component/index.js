@@ -1,6 +1,6 @@
 import React from 'react';
-import TransMd from '../../../components/TransMd';
-import { MainBox, ContentsBox, CodeBox, MdBox } from '../../../components/styled';
+import TransMd from 'components/TransMd';
+import { MainBox, ContentsBox, CodeBox, MdBox } from 'components/styled';
 
 const contents = `
 

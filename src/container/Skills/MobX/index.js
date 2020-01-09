@@ -1,9 +1,9 @@
 import React from 'react';
-import { MainBox, ContentsBox, CodeBox, MdBox } from '../../../components/styled';
+import { MainBox, ContentsBox, CodeBox, MdBox } from 'components/styled';
 import MobX from './MobX';
-import TransMd from '../../../components/TransMd';
+import TransMd from 'components/TransMd';
 import { markdown, MobxJS, CounterJS, counterJS } from './Sources';
-import AutoTab from '../../../components/AutoTab/AutoTab';
+import AutoTab from 'components/AutoTab/AutoTab';
 
 const index = () => {
     return (

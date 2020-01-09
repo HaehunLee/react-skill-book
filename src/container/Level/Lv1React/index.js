@@ -1,6 +1,6 @@
 import React from 'react';
 import './Lv1React.css';
-import { MainBox } from '../../../components/styled';
+import { MainBox } from 'components/styled';
 
 const index = () => {
     return (

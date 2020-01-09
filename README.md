@@ -17,6 +17,7 @@ mobx
 mobx-react
 react-tabs
 Material-ui
+babel-plugin-module-resolver : babel plugin 사용 라이브러리
 ...
 ```
 
@@ -30,6 +31,32 @@ AutoTab : 페이지들을 Tab에 주입하여 탭단으로 볼 수 있게 해줌
 
 
 
+
+#### issue record :
+
+1. import 절대경로 만들기
+- babel-plugin-module-resolver 설치
+```
+$ npm install --save-dev babel-plugin-module-resolver
+```
+
+- package.json 수정
+```
+"babel" : {...
+  ...,
+  {
+    "plugins": [
+      ["module-resolver", {
+        "root": ["./src"],
+        "alias": {
+          "test": "./test",
+          "underscore": "lodash"
+        }
+      }]
+    ]
+  }
+}
+```
 
 ---
 
