@@ -159,7 +159,7 @@
       ]
     ]
   },
-  "homepage": "http://haehunlee.github.io/react-skill-book/",
+  "homepage": "https://haehunlee.github.io/react-skill-book/",
   "devDependencies": {
     "gh-pages": "^2.2.0"
   }
