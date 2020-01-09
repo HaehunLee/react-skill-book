@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "53c1b31c5b38f1cd559d91afcfb236d3",
+    "revision": "4a6fac3ce5ae718aa34755ceb8330d77",
     "url": "/react-skill-book/index.html"
   },
   {
-    "revision": "35c083b8cf10a6737839",
+    "revision": "da33df8b2e4cd418bf2d",
     "url": "/react-skill-book/static/css/2.5c17b9f1.chunk.css"
   },
   {
-    "revision": "039c91bd791583ef3e96",
+    "revision": "ed73f409bf056f4384be",
     "url": "/react-skill-book/static/css/main.954c18e2.chunk.css"
   },
   {
-    "revision": "35c083b8cf10a6737839",
-    "url": "/react-skill-book/static/js/2.3362b547.chunk.js"
+    "revision": "da33df8b2e4cd418bf2d",
+    "url": "/react-skill-book/static/js/2.e5873e4e.chunk.js"
   },
   {
     "revision": "11ac391511c99f196b2d7aa5eecda4ec",
-    "url": "/react-skill-book/static/js/2.3362b547.chunk.js.LICENSE"
+    "url": "/react-skill-book/static/js/2.e5873e4e.chunk.js.LICENSE"
   },
   {
-    "revision": "039c91bd791583ef3e96",
-    "url": "/react-skill-book/static/js/main.6f840d52.chunk.js"
+    "revision": "ed73f409bf056f4384be",
+    "url": "/react-skill-book/static/js/main.66cf5a98.chunk.js"
   },
   {
     "revision": "605a04a7f15237208290",
