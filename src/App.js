@@ -6,6 +6,7 @@ import Lv3Component  from './container/Level/Lv3Component';
 import MobX  from './container/Skills/MobX';
 import Lv4LifeCycle  from './container/Level/Lv4LifeCycle';
 import MaterialUi from './container/Skills/MaterialUi';
+import ReactRouterDom from './container/Skills/ReactRouterDom';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <MobX />
       <Lv4LifeCycle />
       <MaterialUi />
+      <ReactRouterDom />
     </>
   );
 }

@@ -48,11 +48,13 @@
     "postcss-normalize": "8.0.1",
     "postcss-preset-env": "6.7.0",
     "postcss-safe-parser": "4.0.1",
+    "qs": "^6.9.1",
     "react": "^16.12.0",
     "react-app-polyfill": "^1.0.5",
     "react-dev-utils": "^10.0.0",
     "react-dom": "^16.12.0",
     "react-markdown": "^4.3.1",
+    "react-router-dom": "^5.1.2",
     "react-syntax-highlighter": "^12.2.1",
     "react-tabs": "^3.1.0",
     "resolve": "1.12.2",
@@ -161,13 +163,18 @@
           "loose": true
         }
       ],
-      ["module-resolver", {
-        "root": ["./src"],
-        "alias": {
-          "test": "./test",
-          "underscore": "lodash"
+      [
+        "module-resolver",
+        {
+          "root": [
+            "./src"
+          ],
+          "alias": {
+            "test": "./test",
+            "underscore": "lodash"
+          }
         }
-      }]
+      ]
     ]
   }
 }
