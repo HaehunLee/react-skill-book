@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-skill-book/static/css/main.c7ae0897.chunk.css",
+    "main.js": "/react-skill-book/static/js/main.aaf96201.chunk.js",
+    "main.js.map": "/react-skill-book/static/js/main.aaf96201.chunk.js.map",
+    "runtime-main.js": "/react-skill-book/static/js/runtime-main.d337087a.js",
+    "runtime-main.js.map": "/react-skill-book/static/js/runtime-main.d337087a.js.map",
+    "static/css/2.5c17b9f1.chunk.css": "/react-skill-book/static/css/2.5c17b9f1.chunk.css",
+    "static/js/2.57506cf2.chunk.js": "/react-skill-book/static/js/2.57506cf2.chunk.js",
+    "static/js/2.57506cf2.chunk.js.map": "/react-skill-book/static/js/2.57506cf2.chunk.js.map",
+    "index.html": "/react-skill-book/index.html",
+    "precache-manifest.a7cf2d6dd60626a5bea829747786f597.js": "/react-skill-book/precache-manifest.a7cf2d6dd60626a5bea829747786f597.js",
+    "service-worker.js": "/react-skill-book/service-worker.js",
+    "static/css/2.5c17b9f1.chunk.css.map": "/react-skill-book/static/css/2.5c17b9f1.chunk.css.map",
+    "static/css/main.c7ae0897.chunk.css.map": "/react-skill-book/static/css/main.c7ae0897.chunk.css.map",
+    "static/js/2.57506cf2.chunk.js.LICENSE": "/react-skill-book/static/js/2.57506cf2.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d337087a.js",
+    "static/css/2.5c17b9f1.chunk.css",
+    "static/js/2.57506cf2.chunk.js",
+    "static/css/main.c7ae0897.chunk.css",
+    "static/js/main.aaf96201.chunk.js"
+  ]
+}
