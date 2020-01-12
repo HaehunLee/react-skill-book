@@ -17,6 +17,7 @@ const ReactRouterDom = () => {
                 {/* <li><Link to="/profile/leehaehun">Copotter 프로필</Link></li> */}
                 {/* <li><Link to="/profile/kimjihye">ZeZe 프로필</Link></li> */}
             </ul>
+            <hr />
             <Route path="/" component={Home} exact={true} />
         {/* <Route path="/about" component={About} />
             <Route path="/info" component={About} />

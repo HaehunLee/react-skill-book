@@ -1,4 +1,5 @@
 import React from 'react';
+import WithRouterSample from '../ReactRouterDom2/WithRouterSample';
 
 const data = {
     leehaehun : {
@@ -23,6 +24,7 @@ const Profile = (props) => {
         <div>
             <h3>{username}({profile.nickname})</h3>
             <p>{profile.description}</p>
+            <WithRouterSample />
         </div>
     );
 };
