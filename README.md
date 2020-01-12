@@ -9,19 +9,24 @@
 - Material-ui ( 2020.01.08 ) [참조](https://material-ui.com/getting-started/)
 - babel-plugin-module-resolver ( 2020.01.09 )
 - react-router-dom ( 2020.01.10) [참조 도서](https://github.com/gilbutITbook/080203)
+- react-router 부가기능 ( 2020.01.12 ) [참조 도서](https://github.com/gilbutITbook/080203)
+- react-redux ( 2020.01.13 ) [참조 도서](https://github.com/gilbutITbook/080203)
 
 ## * Library ( Installed )
 ```
 react-markdown
 react-syntax-highligher
 styled-components
-mobx
-mobx-react
+mobx : 상태 관리 라이브러리
+mobx-react : 상태 관리 라이브러리
 react-tabs
 Material-ui
 babel-plugin-module-resolver : babel plugin 사용 라이브러리
 react-router-dom
 qs: 쿼리 문자열을 객체로 변환하는 라이브러리
+redux : 상태 관리 라이브러리
+react-redux : 상태 관리 라이브러리
+redux-devtools-extension : Redux DevTools 사용 라이브러리
 ...
 ```
 

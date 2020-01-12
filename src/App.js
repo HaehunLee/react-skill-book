@@ -8,6 +8,7 @@ import Lv4LifeCycle  from './container/Level/Lv4LifeCycle';
 import MaterialUi from './container/Skills/MaterialUi';
 import ReactRouterDom from './container/Skills/ReactRouterDom';
 import ReactRouterDom2 from './container/Skills/ReactRouterDom2';
+import Redux from './container/Skills/Redux';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <MaterialUi />
       <ReactRouterDom />
       <ReactRouterDom2 />
+      <Redux />
     </>
   );
 }
