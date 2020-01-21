@@ -98,7 +98,7 @@ Container Component : 리덕스와 연동된 컴포넌트로, 상태를 받고, 
 ### 일반적인 구조 : actions폴더, constants폴더, reducers폴더
 - 기능 추가마다 폴더별로 파일을 수정해야함. // 기능별로 나눠보기 용이함.
 ### Ducks 패턴 : modules 폴더
-- 기능별로 파일 하나에 몰아서 다 장석하는 방식.
+- 프로젝트 기능별로 파일 하나에 몰아서 다 장석하는 방식.
 `
 
 export { indexJS, markdown }
