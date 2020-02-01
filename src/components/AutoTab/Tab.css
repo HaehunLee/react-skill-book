@@ -33,7 +33,7 @@
     }
     .react-tabs__tab-list {
         display: flex;
-        background: #f9f9f9;
+        /* background: #f9f9f9; */
         height: 50px;
         line-height: 30px;
     }
@@ -65,7 +65,7 @@
     }
     .modal-content .react-tabs__tab-list {
         display: flex;
-        background: #f9f9f9;
+        /* background: #f9f9f9; */
         height: 50px;
         line-height: 30px;
     }
