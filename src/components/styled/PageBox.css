@@ -2,7 +2,8 @@
     .main-box { 
         flex-direction: column;
     }
-    .page-box { 
+
+    .main-box .page-box { 
         width : 100%;
     }
 }
