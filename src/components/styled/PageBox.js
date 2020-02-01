@@ -2,13 +2,23 @@ import React from 'react';
 import styled from 'styled-components';
 import PageHeader from './PageHeader';
 
-const MainBox = styled.div`
+import './PageBox.css';
+
+const MainBox = ({children}) => {
+    const Box = styled.div`
     display : inline-flex;
     width : 100%;
     border : 1px dashed red;
     margin : 5px;
     background : #EEEEEE;
 `
+    return (
+        <Box className="main-box">
+            {children}
+        </Box>
+    )
+}
+
 
 const ContentsBox = ({children}) => {
     const Box = styled.div`
@@ -18,7 +28,7 @@ const ContentsBox = ({children}) => {
         flex-direction: column;
     `
     return (
-        <Box>
+        <Box className="page-box">
             <PageHeader Text='Pages'/>
             {children}
         </Box>
@@ -35,7 +45,7 @@ const CodeBox = ({children}) => {
         flex-direction: column;
     `
     return (
-        <Box>
+        <Box className="page-box">
             <PageHeader Text='Code'/>
             {children}
         </Box>
@@ -50,7 +60,7 @@ const MdBox = ({children}) => {
         flex-direction: column;
     `
     return (
-        <Box>
+        <Box className="page-box">
             <PageHeader Text='MarkDown'/>
             {children}
         </Box>
